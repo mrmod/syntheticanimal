@@ -5,7 +5,17 @@ title: SyntheticAnimal.Career
 
 # <a name="top">Career</a>
 
-[Wayfinder](#wayfinder) | [StndBy](#stndby) | [Apple](#apple) | [Roots](#roots)
+<div class="waypoints">
+
+[Wayfinder](#wayfinder)
+
+[StndBy](#stndby)
+
+[Apple](#apple)
+
+[Roots](#roots)
+
+</div>
 
 Since I first wrote an XDCC script in mIRC years ago, I've had an interest in decisions, the types of input given to systems, the psychology of them, and how to react to them algorithmically. Naturally, I have gravitated towards the expanding field of machine learning and artificial intelligence even without my being aware of it.
 
@@ -41,7 +51,7 @@ Accepting user feedback for a poorly functioning web-form is a lot different fro
 
 ###### [top](#top)
 
-## <a name="apple">Apple (Well... how did I get Here?)</a>
+## <a name="apple">Apple (Well... how did I get here?)</a>
 ---
 
 At the peak of Apple, their products made people think differently about how they felt about technology and themselves. There are no minutes here I'd exchange for minutes elsewhere.
@@ -73,6 +83,6 @@ When I got to Genpact, I was excited to keep moving along a management track. Si
 
 ### The Backlog
 
-Prior to Genpact, I did low voltage wiring installation. That's phone systems, voicemails, and yeah, pulling CAT 3 and CAT 5 cables through walls, floors, and wherever it needed to go. In the evenings, I built an all Irix datacenter with a co-worker. During the downtime, presumably when wires were running themselves through walls and such, a local pilot and radio broadcaster taught me about intrusion detection and prevention. We built a firewall, which we sold, and a traffic shaper, which we sold. At the time it gave full exposure to every part of the Linux kernel. Coupled with some CSU/DSU work, shadowing the T-turn-up guy, I learned networks in a way which I don't believe I could have, given my learning style, otherwise.
+Prior to Genpact, I did low voltage wiring installation. That's phone systems, voicemails, and yeah, pulling CAT 3 and CAT 5 cables through walls, floors, and wherever it needed to go. In the evenings, I built an all Irix datacenter with a co-worker. During the downtime, presumably when wires were running themselves through walls and such, a local pilot and radio broadcaster taught me about intrusion detection and prevention. We built a firewall, which we sold, and a traffic shaper, which we sold. At the time it gave full exposure to every part of the Linux kernel. Coupled with some CSU/DSU work, shadowing the T-turn-up guy, I learned networks in a way which I don't believe I could have otherwise.
 
 ###### [top](#top)

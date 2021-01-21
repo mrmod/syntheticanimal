@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "eleventy",
+    "deploy": "firebase deploy --project syntheticanimal",
     "start": "eleventy --serve"
   },
   "author": "",
