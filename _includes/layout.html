@@ -1,0 +1,60 @@
+---
+title: SyntheticAnimal
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Karla', sans-serif;
+            font-weight: 400;
+        }
+        body {
+            width: clamp(320px, 80vw, 1080px);
+        }
+        pre {
+            font-weight: 300;
+            font-style: italic;
+            width: min(80vw, 1080px);
+            white-space: pre-wrap;
+            background-color: #fcfcfc;
+            margin-left: 16px;
+        }
+        h1 h2 h3 {
+            font-weight: 600;
+        }
+        h4 h5 h6 {
+            font-weight: 300;
+        }
+
+        h6 {
+            margin: 0 8px;
+            padding: 0;
+        }
+
+        ul {
+            padding: 0;
+            margin-left: 24px;
+        }
+        a {
+            text-decoration: none;
+        }
+        hr {
+            border: 0;
+            height: 1px;
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(67, 72, 133, 0.883), rgba(0, 0, 0, 0.1));
+        }
+    </style>
+</head>
+<body>
+    {{ content | safe }}
+</body>
+</html>

@@ -1,0 +1,6 @@
+## Deploying
+
+```
+firebase deploy
+```
+
