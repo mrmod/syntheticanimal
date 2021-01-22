@@ -1,6 +1,14 @@
+My personal website. Read it here or read it [there](https://syntheticanimal.com/).
+
+## Development
+
+```
+npm start
+```
+
 ## Deploying
 
 ```
-firebase deploy
+npm run build
+npm run deploy
 ```
-

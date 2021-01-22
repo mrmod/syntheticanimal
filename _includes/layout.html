@@ -10,7 +10,8 @@ title: SyntheticAnimal
     <title>{{ title }}</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
 
-    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap" rel="stylesheet">
 
     <style>
         * {
@@ -48,6 +49,7 @@ title: SyntheticAnimal
         }
         a {
             text-decoration: none;
+            font-weight: 500;
         }
         hr {
             border: 0;
@@ -57,6 +59,10 @@ title: SyntheticAnimal
         p {
             margin: 8px 2px;
             text-indent: 4px;
+        }
+        nav {
+            padding: 8px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
         }
         .waypoints {
             display: flex;
@@ -68,9 +74,26 @@ title: SyntheticAnimal
         .waypoints p {
             margin: 0 8px;
         }
+        .active-topic-link {
+            background: rgba(185, 224, 246, 0.4);
+            padding: 2px;
+        }
     </style>
 </head>
 <body>
+    <nav>
+        
+        <a
+            {% if title == "SyntheticAnimal" %}
+            class="active-topic-link"
+            {% endif %}
+            href="/">SyntheticAnimal</a>
+        <a
+            {% if title == "SyntheticAnimal.Career" %}
+            class="active-topic-link"
+            {% endif %}
+            href="/career">.Career</a>
+    </nav>
     {{ content | safe }}
 </body>
 </html>
